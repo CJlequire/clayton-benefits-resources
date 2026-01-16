@@ -68,8 +68,6 @@
     }
     .col a.benefits-resource {
         display: block !important;
-		max-width: 555px;
-		max-height: 720px;
 		margin-left:15px;
 		margin-right:15px;
     }
