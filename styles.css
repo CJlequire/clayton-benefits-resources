@@ -68,6 +68,8 @@
     }
     .col a.benefits-resource {
         display: block !important;
+		max-width: 555px;
+		max-height: 720px;
     }
     /* New styles for overlay*/
     a.benefits-resource {
