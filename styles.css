@@ -8,11 +8,9 @@
 	}
 	
 	.page-header .header-inner {
-	  display: flex;
+	  display: grid;
+	  grid-template-columns: auto 1fr auto;
 	  align-items: center;
-	  gap: 16px;
-	  max-width: 1200px;
-	  margin: 0 auto;
 	}
 	
 	.page-header h1 {
@@ -20,6 +18,7 @@
 	  font-size: 32px;
 	  font-weight: 600;
 	  color: #0074C5;
+	  text-align: center;
 	}
 	
 	.header-logo {
