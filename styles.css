@@ -1,19 +1,32 @@
 <style type="text/css">
 
-	.page-header {
+	header.page-header {
 	  width: 100%;
-	  background: #ffffff;
+	  background-color: #ffffff;
 	  border-bottom: 1px solid #e5e5e5;
-	  padding: 28px 16px;
-	  text-align: center;
+	  padding: 20px 32px;
+	}
+	
+	.page-header .header-inner {
+	  display: flex;
+	  align-items: center;
+	  gap: 16px;
+	  max-width: 1200px;
+	  margin: 0 auto;
 	}
 	
 	.page-header h1 {
 	  margin: 0;
 	  font-size: 32px;
 	  font-weight: 600;
-	  color: #0074C5; /* Clayton blue */
+	  color: #0074C5;
 	}
+	
+	.header-logo {
+	  height: 40px;
+	  width: auto;
+	}
+
 
 	.disabled {
 		cursor: not-allowed;
