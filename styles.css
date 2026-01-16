@@ -68,8 +68,8 @@
     }
     .col a.benefits-resource {
         display: block !important;
-		margin-left:15px;
-		margin-right:15px;
+		margin-left:-15px;
+		margin-right:-15px;
     }
     /* New styles for overlay*/
     a.benefits-resource {
