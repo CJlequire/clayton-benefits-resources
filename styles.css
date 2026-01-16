@@ -66,4 +66,10 @@
     .gc-disclaimer p a {
     	text-decoration: underline;
     }
+.benefits-resource img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 </style>
