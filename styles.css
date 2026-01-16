@@ -78,9 +78,7 @@
     }
     a.benefits-resource img {
         display: block;
-		width: 600px;
-		height:800px;
-    }
+	    }
     a.benefits-resource .overlay {
         position: absolute;
         top: 0;
