@@ -133,5 +133,15 @@
 	  height: auto;
 	  display: block;
 	}
+.guide-fixed{
+  max-width: 260px;   /* visual size stays consistent */
+  margin: 0 auto;     /* centers image */
+}
+
+.guide-fixed img{
+  width: 100%;
+  height: auto;
+}
+
 
 </style>
