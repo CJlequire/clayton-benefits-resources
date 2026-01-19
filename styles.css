@@ -134,7 +134,7 @@
 	  display: block;
 	}
 .guide-fixed{
-  max-width: 260px;   /* visual size stays consistent */
+  max-width: 50%;   /* visual size stays consistent */
   margin: 0 auto;     /* centers image */
 }
 
