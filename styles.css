@@ -128,10 +128,28 @@
     .gc-disclaimer p a {
     	text-decoration: underline;
     }
-	.benefits-resource img {
-	  width: 100%;
-	  height: auto;
-	  display: block;
-	}
+	.page-wrap{
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.benefits-resource img{
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;   /* portrait */
+  object-fit: cover;
+  display: block;
+}
+
+.guide-fixed{
+  width: clamp(220px, 24vw, 320px);
+  margin: 0 auto;
+}
+.guide-fixed img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 </style>
